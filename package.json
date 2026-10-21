@@ -1,0 +1,18 @@
+{
+  "name": "next-font-preload-windows-repro",
+  "private": true,
+  "scripts": {
+    "build:webpack": "next build --webpack",
+    "build:turbopack": "next build --turbopack",
+    "start": "next start -p 3999"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.21",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
